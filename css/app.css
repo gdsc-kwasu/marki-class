@@ -1,0 +1,59 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.brand {
+    font-size: 2.86em;
+    text-align: center;
+}
+
+.text-primary {
+    color: #AF001B;
+}
+.bg-primary {
+    background-color: #AF001B;
+    color: #fff;
+}
+
+.text-secondary {
+    color: #24A0ED;
+}
+
+.bg-secondary {
+    background: #24A0ED;
+    color: #fff;
+}
+
+.form-control {
+    width: 100%;
+    padding: 19px 23px;
+    color: #C2BDBD;
+    border: none;
+    box-shadow: -1px 4px 20px rgba(156, 152, 152, 0.25);
+}
+.form-row {
+    margin: 23px 0;
+}
+.input-icon {
+    font-size: 1.8em;
+    position: absolute;
+    right: 10px; top: 10px;
+}
+.input-group {
+    position: relative;
+}
+
+.container {
+    width: 45%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+    }
+}
